@@ -1,0 +1,17 @@
+{
+  "name": "TFS Poller",
+  "version": "0.0.1",
+  "description": "Poll the TFS online server to get status updates on work items",
+  "manifest_version": 2,
+  "permissions": [
+    "tabs",
+    "http://*/",
+    "https://*/",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "scripts": ["app.js"],
+    "persistent": true
+  }
+}

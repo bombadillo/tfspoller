@@ -1,5 +1,6 @@
-# tibc
-TFS poller
+# TFS poller
+
+Chrome extension to poll the TFS online server to get status updates on work items.
 
 # Setup
 * `npm install`
