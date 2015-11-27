@@ -6,9 +6,7 @@
   "permissions": [
     "tabs",
     "http://*/",
-    "https://*/",
-    "webRequest",
-    "webRequestBlocking"
+    "https://*/"
   ],
   "background": {
     "scripts": ["app.js"],
